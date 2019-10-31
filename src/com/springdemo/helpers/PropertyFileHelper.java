@@ -14,6 +14,7 @@ public class PropertyFileHelper {
 
 	public PropertyFileHelper(String propertyFile) {
 		this.propertyFile = propertyFile;
+		System.out.println("Propert file path: " + this.propertyFile);
 	}
 
 	public String getProperty(String propertyName) {

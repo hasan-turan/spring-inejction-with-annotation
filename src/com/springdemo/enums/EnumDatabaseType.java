@@ -1,7 +1,7 @@
 package com.springdemo.enums;
 
 public enum EnumDatabaseType {
-	MSSQL("MSSQL", "MSSQL"), ORACLE("ORACLE", "MsSql"), MYSQL("MYSQL", "MYSQL");
+	MSSQL("MSSQL", "MSSQL"), ORACLE("ORACLE", "ORACLE"), MYSQL("MYSQL", "MYSQL");
 
 	private String key;
 	private String value;

@@ -1,6 +1,10 @@
 package com.springdemo;
 
+import org.springframework.beans.factory.annotation.Value;
+
 public class OracleCustomerDal implements ICustomerDal {
+
+	@Value("${database.connection.string}")
 	private String connectionString;
 
 	public void setConnectionString(String connectionString) {
